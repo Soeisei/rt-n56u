@@ -27,7 +27,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "MI-R4A R2100"
+            targets: "MI-R4A R2100 K2P"
           - build_variant: "mt7621-usb"
             targets: "NEWIFI3"
     steps:
